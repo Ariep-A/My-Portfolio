@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+   
+    <title>Ariep A | Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="menu-icon">&#9776</label>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Home Section-->
+    <section id="Home">
+        <h1 style="padding-top: 4px; text-align: center; color: orange; padding-bottom: 4p;">Home</h1>
+    </section>
+    <div class="container" style="padding-left: 6%;">
+        <h3>Hello, I'm</h3>
+        <h2 style="color: orange;">Ariep A</h2>
+        <p>Web Developer </p>
+    </div>
+    <p class="para">Creative and detail-oriented web developer skilled in building responsive, user-friendly websites
+        using HTML, CSS, JavaScript, and modern frameworks. Passionate about clean code and intuitive design.
+
+    </p>
+    <br>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 style="padding-top: 60px; padding-bottom: 4p;">About Me</h2>
+            <br>
+            <br>
+                <div class="about-image">
+                    <img src="myimage.jpg" alt="Ariep A" style="align-items: center;">
+                    <p>
+                        I'm <strong>Ariep A</strong>, a passionate web developer skilled in creating responsive,
+                        user-friendly websites using HTML, CSS, and JavaScript. I enjoy building modern, clean
+                        interfaces that work on all devices.</p>
+                </div>
+        </section>
+
+    <!-- project Section -->
+    <section id="Projects">
+        <h2 style="padding-top: 4px; padding-bottom: 4p; ">Projects</h2>
+        <div class="projects">
+            <div class="project-card">Responsive Portfolio</div>
+        </div>
+    </section>
+    <!--Skills Section-->
+    <section id="Skills">
+        <h2 style="padding-top:30px; padding-bottom: 4p;"><strong>Skills</strong></h2>
+        <br><br>
+        <div class="Skills">
+            <div class="Skills-card"><img src="html.png"><p>HTML</p></div>
+            <div class="Skills-card"><img src="css.png"><p>CSS</p></div>
+           <div class="Skills-card"><img src="javascript.png"><p>JavaScript</p></div>
+             <div class="Skills-card"><img src="Python.png"><p><!--n-->Python</p></div>
+        </div>
+    </section>
+  
+        <h2 style="text-align: center ;padding-top: 60px; padding-bottom: 4p;"><strong>click RESUME for Download</strong></h2>
+        <br><br>
+       <div class="button1">
+        <a href="ATS RESUME.pdf"><button class="resume">Resume</button>
+        </a>
+        </div>
+
+    <!-- Contact Section -->
+     <h2 style="font-size: 30px; text-align: center;padding-top: 60px; padding-bottom: 4p;">Contact Me</h2>
+    <section id="contact">
+        <div class="container">
+        <form id="contact-form" action="https://formsubmit.co/aarif638171@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <!-- Optional settings -->
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html" />
+
+        <button class="button2" type="submit">Send Message</button>
+      </form>
+      <p id="form-status"></p>
+      </div>
+    </section>
+<footer style="text-align: center; color: black; padding-top: 5%;">2025 Ariep A. all ridgts receved</footer>
+    <script src="sample.js"></script>
+    <br>
+    <br>
+
+</body>
+
+</html>
